@@ -14,6 +14,24 @@ export default [
       },
       {
         _name: 'CSidebarNavTitle',
+        _children: ['Sport Manager'],
+      },
+      {
+        _name: 'CSidebarNavItem',
+        name: 'ເລືອກສີຫ້ອງ'
+      },
+      {
+        _name: 'CSidebarNavItem',
+        name: 'ເພີ່ມນັກກິລາ',
+        to: '/registerAthlete',
+        icon: 'cilFootball'
+      },
+      {
+        _name: 'CSidebarNavItem',
+        name: 'ເລືອກສີຫ້ອງ'
+      },
+      {
+        _name: 'CSidebarNavTitle',
         _children: ['Theme']
       },
       {

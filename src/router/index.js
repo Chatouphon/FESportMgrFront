@@ -57,6 +57,9 @@ const Register = () => import('@/views/pages/Register')
 const Users = () => import('@/views/users/Users')
 const User = () => import('@/views/users/User')
 
+//FeSport
+const registerAthlete = () => import('@/views/feSport/registerAthlete')
+
 Vue.use(Router)
 
 export default new Router({
@@ -78,6 +81,11 @@ function configRoutes () {
           path: 'dashboard',
           name: 'Dashboard',
           component: Dashboard
+        },
+        {
+          path: 'registerAthlete',
+          name: 'ລົງທະບຽນນັກກິລາ',
+          component: registerAthlete
         },
         {
           path: 'theme',

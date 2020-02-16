@@ -1,8 +1,7 @@
 <template>
   <CContainer class="d-flex align-items-center min-vh-100">
-    <CRow class="justify-content-center">
-      <CCol md="8">
-        <CCardGroup>
+    <CRow>
+      <CCol md="12">
           <CCard class="p-4">
             <CCardBody>
               <CForm>
@@ -23,7 +22,7 @@
                 </CInput>
                 <CRow>
                   <CCol col="6">
-                    <CButton color="primary" class="px-4">Login</CButton>
+                    <a href="#/dashboard"><CButton color="primary" class="px-4">Login</CButton></a>
                   </CCol>
                   <CCol col="6" class="text-right">
                     <CButton color="link" class="px-0">Forgot password?</CButton>
@@ -32,23 +31,6 @@
               </CForm>
             </CCardBody>
           </CCard>
-          <CCard
-            color="primary"
-            text-color="white"
-            class="text-center py-5 d-md-down-none"
-            style="width:44%"
-            body-wrapper
-          >
-            <h2>Sign up</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <CButton
-              color="primary"
-              class="active mt-3"
-            >
-              Register Now!
-            </CButton>
-          </CCard>
-        </CCardGroup>
       </CCol>
     </CRow>
   </CContainer>
@@ -56,6 +38,9 @@
 
 <script>
 export default {
-  name: 'Login'
+  name: 'Login',
+  data() {
+
+  }
 }
 </script>

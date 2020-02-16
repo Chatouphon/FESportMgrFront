@@ -10,15 +10,15 @@
       class="ml-3 d-md-down-none"
       v-c-emit-root-event:toggle-sidebar
     />
-    <CHeaderBrand
+    <!-- <CHeaderBrand
       class="mx-auto d-lg-none" 
       src="img/brand/coreui-vue-logo.svg"
       width="190"
       height="46"
       alt="CoreUI Logo"
-    />
+    /> -->
     <CHeaderNav class="d-md-down-none mr-auto">
-      <CHeaderNavItem class="px-3">
+      <!-- <CHeaderNavItem class="px-3">
         <CHeaderNavLink to="/dashboard">
           Dashboard
         </CHeaderNavLink>
@@ -32,10 +32,10 @@
         <CHeaderNavLink>
           Settings
         </CHeaderNavLink>
-      </CHeaderNavItem>
+      </CHeaderNavItem> -->
     </CHeaderNav>
     <CHeaderNav class="mr-4">
-      <CHeaderNavItem class="d-md-down-none mx-2">
+      <!-- <CHeaderNavItem class="d-md-down-none mx-2">
         <CHeaderNavLink>
           <CIcon name="cil-bell"/>
         </CHeaderNavLink>
@@ -49,7 +49,8 @@
         <CHeaderNavLink>
           <CIcon name="cil-envelope-open"/>
         </CHeaderNavLink>
-      </CHeaderNavItem>
+      </CHeaderNavItem> -->
+      <h6>ສະບາຍດີ {{classes}}</h6>
       <TheHeaderDropdownAccnt/>
     </CHeaderNav>
     <CSubheader class="px-3">
@@ -65,6 +66,11 @@ export default {
   name: 'TheHeader',
   components: {
     TheHeaderDropdownAccnt
+  },
+  data() {
+    return {
+    classes: '3com1'
+    }
   }
 }
 </script>
