@@ -5,7 +5,8 @@
           <CCard class="p-4">
             <CCardBody>
               <CForm>
-                <h1>Login</h1>
+                <center><img src="../../../public/img/brand/sw-logo-229x109.png"></center>
+                <h3>ລະບົບສະໝັກນັກກິລາພາກວິຊາ CEIT</h3>
                 <p class="text-muted">Sign In to your account</p>
                 <CInput
                   placeholder="Username"

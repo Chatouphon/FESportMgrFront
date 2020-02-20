@@ -77,13 +77,15 @@ import {
   cilUserFemale,
   cilUserFollow,
   cilXCircle,
-  cilFootball
+  cilFootball,
+  cilApple
 
 } from '@coreui/icons'
 
 export const iconsSet = Object.assign(
   {},
   {
+    cilApple,
     cilFootball,
     cilArrowRight,
     cilBan,

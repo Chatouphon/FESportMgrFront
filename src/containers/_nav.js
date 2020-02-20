@@ -18,7 +18,8 @@ export default [
       },
       {
         _name: 'CSidebarNavItem',
-        name: 'ເລືອກສີຫ້ອງ'
+        name: 'ນັກກິລາຂອງຫ້ອງ',
+        icon: 'cil-people'
       },
       {
         _name: 'CSidebarNavItem',
@@ -28,7 +29,8 @@ export default [
       },
       {
         _name: 'CSidebarNavItem',
-        name: 'ເລືອກສີຫ້ອງ'
+        name: 'ເລືອກສີຫ້ອງ',
+        icon: 'cil-drop'
       },
       {
         _name: 'CSidebarNavTitle',

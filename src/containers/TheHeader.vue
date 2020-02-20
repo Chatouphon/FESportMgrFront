@@ -51,7 +51,7 @@
         </CHeaderNavLink>
       </CHeaderNavItem> -->
       <h6>ສະບາຍດີ {{classes}}</h6>
-      <TheHeaderDropdownAccnt/>
+      <!-- <TheHeaderDropdownAccnt/> -->
     </CHeaderNav>
     <CSubheader class="px-3">
       <CBreadcrumbRouter class="border-0"/>
